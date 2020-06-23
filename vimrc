@@ -1,6 +1,5 @@
 """ default setting for all
-
-set nu
+	source ~/.vim/plugrc/defaultrc
 
 """ VIM-Plug 
 call plug#begin('~/.vim/plugged')

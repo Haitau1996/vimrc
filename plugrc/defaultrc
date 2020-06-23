@@ -1,0 +1,28 @@
+set encoding=utf-8
+syntax enable
+syntax on
+set expandtab  "expand tabs to space essential in python"
+set nu
+set paste
+set ts=4  
+set softtabstop=4 
+set shiftwidth=4
+set expandtab  
+set autoindent
+set nocompatible
+set numberwidth=5
+set ruler 
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"  Enable color theme"
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"        let g:molokai_original = 1
+
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"  Enable vim-powerline"
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+        let g:airline_powerline_fonts = 1 
+
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"  Enable Rainbow"
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"        let g:rainbow_active = 1
