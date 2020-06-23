@@ -12,8 +12,12 @@ Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
+Plug 'plasticboy/vim-markdown'
+Plug 'kien/ctrlp.vim'
+Plug 'luochen1990/rainbow'
+Plug 'c.vim'
 Plug 'Valloric/YouCompleteMe'
-Plug 'tpope/fugitive'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " additional vim c++ syntax highlighting
