@@ -27,4 +27,4 @@ set ruler
 "  Enable Rainbow"
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 "        let g:rainbow_active = 1
-set directory = $HOME/.vim/swap// " 设置swap文件的目录
+set directory=/home/chenht/.vim/swap// " 设置swap文件的目录
