@@ -13,7 +13,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Valloric/YouCompleteMe'
-
+Plug 'tpope/fugitive'
 call plug#end()
 
 " additional vim c++ syntax highlighting
