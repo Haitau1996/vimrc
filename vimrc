@@ -19,3 +19,5 @@ call plug#end()
 
 " additional vim c++ syntax highlighting
 	source ~/.vim/plugrc/highlightrc
+" additional vimrc for YCM
+ 	source ~/.vim/plugrc/ycmrc
