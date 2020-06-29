@@ -34,6 +34,17 @@ set directory=/home/chenht/.vim/swap// " 设置swap文件的目录
         let g:autoformat_autoindent = 0
         let g:autoformat_retab = 0
         let g:autoformat_remove_trailing_spaces = 0
+" special setting for python
+        let python_highlight_all=1
+        au Filetype python set tabstop=4
+        au Filetype python set softtabstop=4
+        au Filetype python set shiftwidth=4
+        au Filetype python set textwidth=79
+        au Filetype python set expandtab
+        au Filetype python set autoindent
+        au Filetype python set fileformat=unix
+        autocmd Filetype python set foldmethod=indent
+        autocmd Filetype python set foldlevel=99
 
 " enable auto compile
 
