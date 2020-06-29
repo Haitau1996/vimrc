@@ -15,9 +15,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'plasticboy/vim-markdown'
 Plug 'kien/ctrlp.vim'
 Plug 'luochen1990/rainbow'
-Plug 'c.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-fugitive'
+Plug 'Chiel92/vim-autoformat'
+
 call plug#end()
 
 " additional vim c++ syntax highlighting

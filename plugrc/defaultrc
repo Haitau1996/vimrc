@@ -28,3 +28,39 @@ set ruler
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 "        let g:rainbow_active = 1
 set directory=/home/chenht/.vim/swap// " 设置swap文件的目录
+
+" enable auto format
+        nnoremap <F6> :Autoformat<CR>
+        let g:autoformat_autoindent = 0
+        let g:autoformat_retab = 0
+        let g:autoformat_remove_trailing_spaces = 0
+
+" enable auto compile
+
+map <F5> :call CompileRunGcc()<CR>
+func! CompileRunGcc()
+        exec "w"
+        if &filetype == 'c'
+                exec "!gcc % -o %<"
+                exec "!time ./%<"
+        elseif &filetype == 'cpp'
+                exec "!g++ % -o %<"
+                exec "!time ./%<"
+        elseif &filetype == 'java'
+                exec "!javac %"
+                exec "!time java %<"
+        elseif &filetype == 'sh'
+                :!time bash %
+        elseif &filetype == 'python'
+                exec "!clear"
+                exec "!time python3 %"
+        elseif &filetype == 'html'
+                exec "!firefox % &"
+        elseif &filetype == 'go'
+                " exec "!go build %<"
+                exec "!time go run %"
+        elseif &filetype == 'mkd'
+                exec "!~/.vim/markdown.pl % > %.html &"
+                exec "!firefox %.html &"
+        endif
+endfunc
