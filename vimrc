@@ -4,6 +4,7 @@
 """ VIM-Plug 
 call plug#begin('~/.vim/plugged')
 
+Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/vim-easy-align'
 Plug 'skywind3000/quickmenu.vim'
 Plug 'octol/vim-cpp-enhanced-highlight'

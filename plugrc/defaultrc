@@ -75,3 +75,6 @@ func! CompileRunGcc()
                 exec "!firefox %.html &"
         endif
 endfunc
+
+" 使用<ctrl> +hjkl在窗口之间跳转
+
