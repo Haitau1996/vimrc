@@ -2,6 +2,7 @@ set encoding=utf-8
 syntax enable
 syntax on
 filetype plugin indent on
+set autoindent
 set expandtab  "expand tabs to space essential in python"
 set nu
 set paste
@@ -10,7 +11,6 @@ set softtabstop=4
 colorscheme murphy
 set shiftwidth=4
 set expandtab  
-set autoindent
 set nocompatible
 set ruler 
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
